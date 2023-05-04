@@ -1,0 +1,99 @@
+body {
+  /* background-color:whitesmoke !important; */
+  /* background-image: linear-gradient(to top, #e99bec, #e7b7f8, #e9d1ff, #f1e9ff, #ffffff); */
+  background-color: #121212 !important;
+}
+.p-3 {
+  color: white !important;
+}
+h1 {
+  color: white !important;
+}
+.logo{
+  background: -webkit-linear-gradient(300deg, #029aff 20%, #a77bf3 70%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+
+}
+.navigate{
+  color: rgb(218, 213, 213);
+  cursor: pointer;
+}
+.typewriter{
+  /* position: absolute;
+  transform: translate(-50%-50%);
+  left: 50%; */
+  background: -webkit-linear-gradient(300deg, #ed2787 20%, #a77bf3 70%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-bottom: 5px solid #5f5017; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.1em; /* Adjust as needed */
+  animation: typing 1.5s steps(400, end);
+  width: fit-content;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width:70%;
+  }
+}
+.main-body{
+  /* background: #f2e5fd !important; */
+  background-color: #121213;
+
+}
+.purchase-btn{
+  background-color: #a77bf3 !important;
+}
+.card{
+  border: 1px solid #2d2d2d !important;
+  border-radius: 7% !important;
+
+  transition: ease-in 0.3s;
+}
+.card:hover{
+  filter: drop-shadow(0 0 0.2rem rgb(74, 74, 74));
+}
+.card-title{
+  color: whitesmoke !important;
+}
+.card-text{
+  color: #029aff !important;
+}
+.form-label{
+  color: aquamarine !important;
+}
+.main-btn{
+ background:#121212 !important;
+ border: 1px solid rgb(80, 114, 0) !important;
+ transition: ease-in 0.2s !important;
+}
+
+.main-btn:hover{
+ border: 1px solid greenyellow!important;
+ letter-spacing: 1px ;
+}
+.card-btn-m{
+  background-color: transparent !important;
+  border: 1px solid rgb(1, 136, 100) !important;
+  transition: ease-in 0.3s !important;
+}
+.card-btn-m:hover{
+letter-spacing: 1.5px;
+}
+.price-txt{
+  color: rgb(91, 91, 91) !important;
+}
